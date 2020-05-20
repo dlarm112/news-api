@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+
+<body>
+        <div class="header">
+            <img class="logo" src="/img/bachelor.png">
+            <h1>Nation News</h1>
+        </div>
+        <div id="filterArea">
+            Filters here
+        </div>
+        <button onclick="sourceFilter()">Apply</button>
+    <div id="newsArea">
+        <p id="pages">Number of articles loaded</p>
+        <div id="news">
+            <div id="contentArea">
+                <div id="tite">Article title</div>
+                <div id="source">Source</div>
+                <div id="publishAt">Yesterday</div>
+            </div>
+            <div id="imgArea">
+                <img src="#" width=200 height=200>
+            </div>
+        </div>
+
+    </div>
+    <button onclick="load20()">Load More</button>
+    <script src="main.js"></script>
+    <script src="moment.js"></script>
+</body>
+
+</html>

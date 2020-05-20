@@ -1,0 +1,63 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-family: Helvetica, sans-serif;
+    text-align: center;
+    background-color: #3e0205;
+    color: #eeeeee;
+    
+}
+.logo{
+    width: 200px;
+    height: auto;
+    border-radius: 0;
+}
+#contentArea{
+    display: flex;
+    align-items: center;
+    border:#461d1f solid 2px;
+    border-radius: 10px;
+    justify-content: space-between;
+    flex-direction: row;
+    text-align: left;
+    padding: 20px 20px;
+    margin: 10px;
+    background-color: #3e0205;
+
+}
+#news{
+    display: inline-block;
+    width: 80%;
+    margin: 0 auto;
+    max-width: 725px;
+}
+
+img {
+    position: relative;
+    border-radius: 10px;
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+    margin: 10px;
+}
+
+a{
+    color:white;
+
+}
+.header{
+    background-color: rgb(43,2,5);
+    padding: 20px;
+    margin-block-start: 0;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+}
+#pages{
+    margin: 0;
+}
+button{
+    margin: 10px;
+}
